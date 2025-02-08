@@ -15,7 +15,6 @@ langchain_huggingface
 faiss-cpu
 langchain_chroma
 pandas
-openai
 langchain-groq
 yfinance
 maplotlib
