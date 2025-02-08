@@ -55,19 +55,6 @@ streamlit run app.py
 
 ---
 
-## 📂 Project Structure
-
-```
-📁 financial-assistant
-│── 📄 app.py          # Main Streamlit app
-│── 📄 faiss_index.pkl # FAISS index for document search
-│── 📁 data            # Directory for storing financial documents
-│── 📄 requirements.txt # List of required dependencies
-│── 📄 README.md       # Project documentation
-```
-
----
-
 ## 📈 Usage Guide
 
 1️⃣ **Search Stock Data**
