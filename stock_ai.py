@@ -19,9 +19,12 @@ from datetime import datetime
 
 
 # Load API keys
-load_dotenv()
-os.environ['HF_TOKEN'] = os.getenv("HF_TOKEN")  # Hugging Face API Key
-os.environ['GROQ_API_KEY'] = os.getenv("GROQ_API_KEY")  # Groq API Key
+#load_dotenv()
+#os.environ['HF_TOKEN'] = os.getenv("HF_TOKEN")  # Hugging Face API Key
+#os.environ['GROQ_API_KEY'] = os.getenv("GROQ_API_KEY")  # Groq API Key
+
+HF_TOKEN = st.secrets["HF_TOKEN"]
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 # Load embeddings model
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
@@ -30,7 +33,7 @@ embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 vectorstore = None
 
 # Initialize ChatGroq with Llama3
-llm = ChatGroq(groq_api_key=os.getenv("GROQ_API_KEY"), model_name="Llama3-8b-8192")
+llm = ChatGroq(groq_api_key=GROQ_API_KEY, model_name="Llama3-8b-8192")
 
 # Streamlit app
 st.title("📈 AI-Powered Financial Research Assistant")
