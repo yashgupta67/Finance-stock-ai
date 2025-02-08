@@ -4,6 +4,11 @@ This project is an AI-powered financial assistant built using **Streamlit, FAISS
 
 ---
 
+## Try It Out!!
+[finance-stock-ai](https://finance-stock-ai-yashgupta67.streamlit.app/)
+
+---
+
 ## 📌 Features
 
 - **💰 Stock Market Analysis**: Fetches real-time and historical financial data using Yahoo Finance (yFinance).
