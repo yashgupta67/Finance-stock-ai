@@ -17,7 +17,7 @@ langchain_chroma
 pandas
 langchain-groq
 yfinance
-maplotlib
+matplotlib
 numpy
 datetime
 plotly
