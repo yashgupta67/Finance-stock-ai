@@ -4,9 +4,7 @@ ipykernel
 langchain-community
 pypdf
 bs4
-arxiv
 pymupdf
-wikipedia
 langchain-text-splitters
 langchain-openai
 chromadb
@@ -19,7 +17,5 @@ langchain-groq
 yfinance
 matplotlib
 numpy
-datetime
 plotly
 requests
-time
